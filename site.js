@@ -22,9 +22,8 @@
       <p class="nav-label">Navigation</p>
       <nav class="nav-list" aria-label="頁面導覽"></nav>
       <div class="sidebar-footer">
-        新增專區時，優先修改 <strong>site-data.js</strong>。
-        <br>
-        側欄、首頁與總覽表會一起同步。
+        目前版本:員工專區3.0<br>
+        Copyright © 2026 slsc-Staff-are All rights reserved. 隱私權政策
       </div>
     </aside>
     <div class="sidebar-backdrop" aria-hidden="true"></div>
