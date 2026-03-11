@@ -6,7 +6,6 @@
     { id: "staff_area", href: "staff_area.html", label: "總覽表", note: "全部資源彙整" },
     { id: "gp01", href: "gp01.html", label: "職務代理表", note: "行管處職務" },
     { id: "gp02", href: "gp02.html", label: "總務專區", note: "採購與修繕" },
-    { id: "gp03", href: "gp03.html", label: "處行政業務", note: "內部文件" },
     { id: "gp04", href: "gp04.html", label: "人資專區", note: "制度與保險" },
     { id: "gp05", href: "gp05.html", label: "職災給付流程", note: "申請表單" },
     { id: "gp06", href: "gp06.html", label: "財務專區", note: "建置中" },
@@ -218,9 +217,9 @@
     },
     gp13: {
       type: "links",
-      title: "處行政專區",
-      subtitle: "備檔總表與跨專區行政資料彙整。",
-      intro: "用於彙整與追蹤處行政相關資料。",
+      title: "處行政整合專區",
+      subtitle: "整合原 gp03 與 gp13 的行政業務、備檔與跨專區資料。",
+      intro: "後續處行政相關內容請統一維護在這一頁。",
       links: [
         { title: "處行政-行管處備檔總表", href: "https://docs.google.com/spreadsheets/d/1XIaU0YqRbV4aVEvbhMHn-Dnp5QCVzOhGCOOvRbbxJbo/edit?gid=1912351746#gid=1912351746", tag: "試算表" },
         { title: "處行政業務專區", href: "https://drive.google.com/drive/folders/1IR2kZHWp78AEM_DLwyDOLd5k5W-uIEVk", tag: "資料夾" },
