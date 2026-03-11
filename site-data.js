@@ -101,7 +101,7 @@
       subtitle: "採購、修繕、物資與總務常用入口。",
       intro: "總務常用資源整理如下。",
       links: [
-        { title: "一般採購", href: "http://210.63.206.187/UOF/", tag: "系統" },
+        { title: "一般採購", href: "http://118.163.5.133:3080/UOF/", tag: "系統" },
         { title: "大宗採購", href: "https://drive.google.com/drive/folders/1F97IAlVtUCHcZPdInMGsSiHBOjNo9qul", tag: "雲端資料夾" },
         { title: "修繕申請", href: "http://210.63.206.187/UOF/", tag: "系統" },
         { title: "物品交流平台", href: "https://drive.google.com/drive/folders/1vsgCqkpCRODnOAE7mJoGlf7whRIBTasX", tag: "共享資源" },
@@ -128,7 +128,7 @@
       subtitle: "人資系統、保險與相關作業說明。",
       intro: "人資常用系統與制度文件。",
       links: [
-        { title: "104 人資系統", href: "http://210.63.206.183/eHRMS/Login.asp", tag: "系統" },
+        { title: "104 人資系統", href: "http://118.163.5.133:2080/ehrms/", tag: "系統" },
         { title: "114 年度團體保險內容摘要說明", href: "https://drive.google.com/file/d/1zXDLB-dIVRNrJtyutyCCNjI-JEESLSlk/view", tag: "PDF / 雲端" },
         { title: "解憂信箱使用方法", href: "https://slsc.org.tw/wp-content/uploads/2023/04/%E8%A7%A3%E6%86%82%E4%BF%A1%E7%AE%B1%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F0201.pdf", tag: "PDF" },
         { title: "113 年度長照機構專業責任保險內容說明", href: "https://drive.google.com/file/d/1xZuCPuXPOugSvBMT4s8G5VWmDZfI2TTD/view?usp=drive_link", tag: "說明文件" }
@@ -202,7 +202,7 @@
       subtitle: "官網更新申請入口與教學影片。",
       intro: "如需更新官網內容，可先看教學再送件。",
       links: [
-        { title: "官網更新相關申請", href: "http://210.63.206.187/UOF/Login.aspx?ReturnUrl=%2fUOF%2f", tag: "系統" },
+        { title: "官網更新相關申請", href: "http://118.163.5.133:3080/UOF", tag: "系統" },
         { title: "官網更新相關申請教學影片", href: "https://www.youtube.com/watch?v=aPfNuwuOP_Y", tag: "影片" }
       ]
     },
