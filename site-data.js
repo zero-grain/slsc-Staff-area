@@ -140,7 +140,7 @@
       subtitle: "職災醫療與工資補償相關表單。",
       intro: "申請前可先參考下方補充說明。",
       links: [
-        { title: "職業災害醫療給付門診住院醫療費用補償", href: "https://drive.google.com/drive/folders/1jItRaVUL8UE_kw7zpGtMHKC2FTfEoi9a?usp=sharing", tag: "Excel" },
+        { title: "職業災害醫療給付門診住院醫療費用補償", href: "https://drive.google.com/drive/folders/1jItRaVUL8UE_kw7zpGtMHKC2FTfEoi9a", tag: "圖片" },
         { title: "普統-職災傷病給付無法工作期間工資補償", href: "https://slsc.org.tw/wp-content/uploads/2023/05/%E6%99%AE%E9%80%9A-%E8%81%B7%E7%81%BD%E5%82%B7%E7%97%85%E7%B5%A6%E4%BB%98%E7%84%A1%E6%B3%95%E5%B7%A5%E4%BD%9C%E6%9C%9F%E9%96%93%E5%B7%A5%E8%B3%87%E8%A3%9C%E5%84%9F.xlsx", tag: "Excel" }
       ],
       notes: [
