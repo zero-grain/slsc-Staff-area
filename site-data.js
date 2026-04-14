@@ -101,7 +101,7 @@
       subtitle: "採購、修繕、物資與總務常用入口。",
       intro: "總務常用資源整理如下。",
       links: [
-        { title: "一般採購", href: "http://118.163.5.133:3080/UOF/", tag: "系統" },
+        { title: "一般採購", href: "http://210.63.206.187/UOF/", tag: "系統" },
         { title: "大宗採購", href: "https://drive.google.com/drive/folders/1F97IAlVtUCHcZPdInMGsSiHBOjNo9qul", tag: "雲端資料夾" },
         { title: "修繕申請", href: "http://210.63.206.187/UOF/", tag: "系統" },
         { title: "物品交流平台", href: "https://drive.google.com/drive/folders/1vsgCqkpCRODnOAE7mJoGlf7whRIBTasX", tag: "共享資源" },
@@ -128,7 +128,7 @@
       subtitle: "人資系統、保險與相關作業說明。",
       intro: "人資常用系統與制度文件。",
       links: [
-        { title: "104 人資系統", href: "http://118.163.5.133:2080/ehrms/", tag: "系統" },
+        { title: "104 人資系統", href: "http://210.63.206.183/eHRMS/Login.asp", tag: "系統" },
         { title: "114 年度團體保險內容摘要說明", href: "https://drive.google.com/file/d/1zXDLB-dIVRNrJtyutyCCNjI-JEESLSlk/view", tag: "PDF / 雲端" },
         { title: "解憂信箱使用方法", href: "https://slsc.org.tw/wp-content/uploads/2023/04/%E8%A7%A3%E6%86%82%E4%BF%A1%E7%AE%B1%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F0201.pdf", tag: "PDF" },
         { title: "113 年度長照機構專業責任保險內容說明", href: "https://drive.google.com/file/d/1xZuCPuXPOugSvBMT4s8G5VWmDZfI2TTD/view?usp=drive_link", tag: "說明文件" }
@@ -140,7 +140,7 @@
       subtitle: "職災醫療與工資補償相關表單。",
       intro: "申請前可先參考下方補充說明。",
       links: [
-        { title: "職業災害醫療給付門診住院醫療費用補償", href: "https://drive.google.com/file/d/1mS7A07XaAHz-aFwaiyBTX61TwvoLEDqp/view?usp=drive_link", tag: "PDF" },
+        { title: "職業災害醫療給付門診住院醫療費用補償", href: "https://slsc.org.tw/wp-content/uploads/2023/05/%E8%81%B7%E6%A5%AD%E7%81%BD%E5%AE%B3%E9%86%AB%E7%99%82%E7%B5%A6%E4%BB%98%E9%96%80%E8%A8%BA%E4%BD%8F%E9%99%A2%E9%86%AB%E7%99%82%E8%B2%BB%E7%94%A8%E8%A3%9C%E5%84%9F.xlsx", tag: "Excel" },
         { title: "普統-職災傷病給付無法工作期間工資補償", href: "https://slsc.org.tw/wp-content/uploads/2023/05/%E6%99%AE%E9%80%9A-%E8%81%B7%E7%81%BD%E5%82%B7%E7%97%85%E7%B5%A6%E4%BB%98%E7%84%A1%E6%B3%95%E5%B7%A5%E4%BD%9C%E6%9C%9F%E9%96%93%E5%B7%A5%E8%B3%87%E8%A3%9C%E5%84%9F.xlsx", tag: "Excel" }
       ],
       notes: [
@@ -183,6 +183,7 @@
       intro: "新人報到後常用的教學資源。",
       links: [
         { title: "新人教育訓練 classroom 簡易操作", href: "https://drive.google.com/file/d/16C26HCb1ExJmPMQqizc-0dDQG9dHWTaq/view?usp=sharing", tag: "教學" },
+        { title: "新人教育訓練成績查詢平台", href: "https://zero-grain.github.io/ntr/", tag: "查詢平台" },
         { title: "一等一 UOF 系統登入說明", href: "https://drive.google.com/file/d/1DJfo4t5-OpJiWFy2Sd47yZNQoyKerYop/view?usp=drive_link", tag: "教學" },
         { title: "一等一 UOF 請假、加班操作說明", href: "https://drive.google.com/file/d/1-rhZ7e8057xCQrPzf_HLd5Axye8zS0FH/view?usp=drive_link", tag: "教學" }
       ]
@@ -202,7 +203,7 @@
       subtitle: "官網更新申請入口與教學影片。",
       intro: "如需更新官網內容，可先看教學再送件。",
       links: [
-        { title: "官網更新相關申請", href: "http://118.163.5.133:3080/UOF", tag: "系統" },
+        { title: "官網更新相關申請", href: "http://210.63.206.187/UOF/Login.aspx?ReturnUrl=%2fUOF%2f", tag: "系統" },
         { title: "官網更新相關申請教學影片", href: "https://www.youtube.com/watch?v=aPfNuwuOP_Y", tag: "影片" }
       ]
     },
