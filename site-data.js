@@ -30,18 +30,18 @@
             <th>主責職務</th>
             <th>職務代理人</th>
           </tr>
-          <tr><td rowspan="11">人資室</td><td>陳處長</td><td>人資室各項業務督責</td><td></td></tr>
-          <tr><td rowspan="3">邱先生</td><td>工作規則、法令諮詢、勞動檢查諮詢</td><td rowspan="3">高小姐</td></tr>
+          <tr><td rowspan="11">人資室</td><td>葉副處長</td><td>人資室各項業務督責</td><td></td></tr>
+          <tr><td rowspan="3">陳先生</td><td>工作規則、法令諮詢、勞動檢查諮詢</td><td rowspan="3">高小姐</td></tr>
           <tr><td>人事行政：團屋、專區、居家</td></tr>
           <tr><td>職業安全衛生</td></tr>
           <tr><td rowspan="2">曹小姐</td><td>一等一假勤、104 系統計薪作業</td><td rowspan="2">高小姐</td></tr>
           <tr><td>人事行政：非團屋專區居家單位</td></tr>
-          <tr><td rowspan="5">高小姐</td><td>人事行政：團屋、專區、居家</td><td rowspan="2">邱先生</td></tr>
+          <tr><td rowspan="5">高小姐</td><td>人事行政：團屋、專區、居家</td><td rowspan="2">陳先生</td></tr>
           <tr><td>在職證明、離職證明</td></tr>
           <tr><td>育嬰留停作業</td><td rowspan="3">曹小姐</td></tr>
           <tr><td>職災保險申請</td></tr>
           <tr><td>缺工獎勵、安穩僱用</td></tr>
-          <tr><td rowspan="7">總務室、空間規劃與新設專案</td><td rowspan="7">鍾小姐</td><td>全會財產管理</td><td rowspan="7">周泰興</td></tr>
+          <tr><td rowspan="7">總務室、空間規劃與新設專案</td><td rowspan="7">高小姐</td><td>全會財產管理</td><td rowspan="7">周泰興</td></tr>
           <tr><td>採購核決及指派、維修核決指派</td></tr>
           <tr><td>一般採購、文件管理（各項契約）</td></tr>
           <tr><td>統一採購（服務）</td></tr>
@@ -53,13 +53,13 @@
           <tr><td>資訊設備維護與採購</td></tr>
           <tr><td>全會官網維護</td></tr>
           <tr><td>資訊相關問題排解</td></tr>
-          <tr><td rowspan="4">會務</td><td rowspan="4">陳先生</td><td>財團法人士林靈糧堂</td><td rowspan="4"></td></tr>
+          <tr><td rowspan="4">會務</td><td rowspan="4">葉副處長</td><td>財團法人士林靈糧堂</td><td rowspan="4"></td></tr>
           <tr><td>社團法人士林靈糧堂協會</td></tr>
           <tr><td>財團法人新竹市社福基金會</td></tr>
           <tr><td>設立資料保管、例行大會辦理、行政會務執行</td></tr>
-          <tr><td rowspan="2">公關室</td><td rowspan="2">陳先生</td><td>團體參訪、邀請授課、媒體通告</td><td rowspan="2"></td></tr>
+          <tr><td rowspan="2">公關室</td><td rowspan="2">葉副處長</td><td>團體參訪、邀請授課、媒體通告</td><td rowspan="2"></td></tr>
           <tr><td>捐款服務、實物捐贈、資源募集、企業合作、公益勸募</td></tr>
-          <tr><td>新竹市香山來居園社會福利園區</td><td>陳先生</td><td>專案管理、興建規劃、興辦計畫、籌設計畫、資源募集、主管機關及關鍵資源協調窗口。</td><td></td></tr>
+          <tr><td>新竹市香山來居園社會福利園區</td><td>葉副處長</td><td>專案管理、興建規劃、興辦計畫、籌設計畫、資源募集、主管機關及關鍵資源協調窗口。</td><td></td></tr>
         </tbody>
       </table>
     </div>
