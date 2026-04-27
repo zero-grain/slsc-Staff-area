@@ -101,8 +101,8 @@
       subtitle: "採購、修繕、物資與總務常用入口。",
       intro: "總務常用資源整理如下。",
       links: [
-        { title: "一般採購", href: "http://210.63.206.187/UOF/", tag: "系統" },
-        { title: "大宗採購", href: "http://118.163.5.133:3080/UOF", tag: "系統" },
+        { title: "一般採購", href: "http://118.163.5.133:3080/UOF", tag: "系統" },
+        { title: "大宗採購", href: "https://drive.google.com/drive/folders/1F97IAlVtUCHcZPdInMGsSiHBOjNo9qul", tag: "雲端資料夾" },
         { title: "修繕申請", href: "http://118.163.5.133:3080/UOF", tag: "系統" },
         { title: "物品交流平台", href: "https://drive.google.com/drive/folders/1vsgCqkpCRODnOAE7mJoGlf7whRIBTasX", tag: "共享資源" },
         { title: "廠商資訊參考", href: "https://drive.google.com/drive/folders/1M6LHPYhpYQa3jtVhMFqb7_uIPJcBQAv2", tag: "參考資料" },
