@@ -102,8 +102,8 @@
       intro: "總務常用資源整理如下。",
       links: [
         { title: "一般採購", href: "http://210.63.206.187/UOF/", tag: "系統" },
-        { title: "大宗採購", href: "https://drive.google.com/drive/folders/1F97IAlVtUCHcZPdInMGsSiHBOjNo9qul", tag: "雲端資料夾" },
-        { title: "修繕申請", href: "http://210.63.206.187/UOF/", tag: "系統" },
+        { title: "大宗採購", href: "http://118.163.5.133:3080/UOF", tag: "系統" },
+        { title: "修繕申請", href: "http://118.163.5.133:3080/UOF", tag: "系統" },
         { title: "物品交流平台", href: "https://drive.google.com/drive/folders/1vsgCqkpCRODnOAE7mJoGlf7whRIBTasX", tag: "共享資源" },
         { title: "廠商資訊參考", href: "https://drive.google.com/drive/folders/1M6LHPYhpYQa3jtVhMFqb7_uIPJcBQAv2", tag: "參考資料" },
         { title: "協會通訊錄", href: "https://docs.google.com/spreadsheets/d/1cGgXPo1-hxjPLmd8JxkNnai28EzzQ1u_9hzdSE7R2HU/edit?gid=840472620#gid=840472620", tag: "試算表" },
@@ -204,7 +204,7 @@
       subtitle: "官網更新申請入口與教學影片。",
       intro: "如需更新官網內容，可先看教學再送件。",
       links: [
-        { title: "官網更新相關申請", href: "http://210.63.206.187/UOF/Login.aspx?ReturnUrl=%2fUOF%2f", tag: "系統" },
+        { title: "官網更新相關申請", href: "http://118.163.5.133:3080/UOF", tag: "系統" },
         { title: "官網更新相關申請教學影片", href: "https://www.youtube.com/watch?v=aPfNuwuOP_Y", tag: "影片" }
       ]
     },
