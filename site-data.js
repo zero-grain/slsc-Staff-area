@@ -128,7 +128,7 @@
       subtitle: "人資系統、保險與相關作業說明。",
       intro: "人資常用系統與制度文件。",
       links: [
-        { title: "104 人資系統", href: "http://118.163.5.133:2080/ehrms/", tag: "系統" },
+        { title: "104 人資系統", href: "http://210.63.206.183/eHRMS/Login.asp", tag: "系統" },
         { title: "114 年度團體保險內容摘要說明", href: "https://drive.google.com/file/d/1zXDLB-dIVRNrJtyutyCCNjI-JEESLSlk/view", tag: "PDF / 雲端" },
         { title: "解憂信箱使用方法", href: "https://slsc.org.tw/wp-content/uploads/2023/04/%E8%A7%A3%E6%86%82%E4%BF%A1%E7%AE%B1%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F0201.pdf", tag: "PDF" },
         { title: "113 年度長照機構專業責任保險內容說明", href: "https://drive.google.com/file/d/1xZuCPuXPOugSvBMT4s8G5VWmDZfI2TTD/view?usp=drive_link", tag: "說明文件" }
@@ -172,6 +172,7 @@
       intro: "教育訓練相關入口如下。",
       links: [
         { title: "教育訓練公佈欄", href: "https://sites.google.com/slsc.org.tw/training/%E9%A6%96%E9%A0%81", tag: "網站" },
+        { title: "線上課程借閱平台", href: "https://borrowhub.slsc.org.tw/", tag: "平台" },
         { title: "衛福部長照積分查詢網", href: "https://ltcpap.mohw.gov.tw/molc/eg999/index", tag: "查詢" },
         { title: "歷年年度教育訓練相關資料（陸續建置中）", href: "https://drive.google.com/drive/folders/1_Oc2wTfu-BpL57bgfbb7YZYoB7EsM6xw?usp=sharing", tag: "資料夾" }
       ]
