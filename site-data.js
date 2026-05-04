@@ -130,7 +130,7 @@
       links: [
         { title: "104 人資系統", href: "http://118.163.5.133:2080/ehrms/", tag: "系統" },
         { title: "114 年度團體保險內容摘要說明", href: "https://drive.google.com/file/d/1zXDLB-dIVRNrJtyutyCCNjI-JEESLSlk/view", tag: "PDF / 雲端" },
-        { title: "解憂信箱使用方法", href: "https://slsc.org.tw/wp-content/uploads/2023/04/%E8%A7%A3%E6%86%82%E4%BF%A1%E7%AE%B1%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F0201.pdf", tag: "PDF" },
+        { title: "解憂信箱使用方法", href: "https://drive.google.com/file/d/135v1YjgdP_ZsyMXYJioUVHmdZKSlDv-5/view?usp=sharing", tag: "PDF" },
         { title: "113 年度長照機構專業責任保險內容說明", href: "https://drive.google.com/file/d/1xZuCPuXPOugSvBMT4s8G5VWmDZfI2TTD/view?usp=drive_link", tag: "說明文件" }
       ]
     },
