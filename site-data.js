@@ -16,7 +16,8 @@
     { id: "gp11", href: "gp11.html", label: "官網更新", note: "申請與教學" },
     { id: "gp12", href: "gp12.html", label: "文件共享", note: "共用資料夾" },
     { id: "gp13", href: "gp13.html", label: "處行政專區", note: "備檔與彙整" },
-    { id: "gp14", href: "gp14.html", label: "督導專區", note: "建置中" }
+    { id: "gp14", href: "gp14.html", label: "督導專區", note: "建置中" },
+    { id: "gp15", href: "gp15.html", label: "資訊專區", note: "工具與支援" }
   ];
 
   const jobTableHtml = `
@@ -234,6 +235,15 @@
       subtitle: "目前保留為後續新增內容使用。",
       intro: "之後只要在資料檔加入 links，就會自動顯示。",
       links: []
+    },
+    gp15: {
+      type: "links",
+      title: "資訊專區",
+      subtitle: "整理資訊工具、遠端支援與常用技術資源。",
+      intro: "資訊相關工具與支援入口會集中在這一頁。",
+      links: [
+        { title: "Awesun 遠端軟體網站", href: "https://awesun.aweray.com/en/olddown/windows", tag: "工具下載" }
+      ]
     }
   };
 
