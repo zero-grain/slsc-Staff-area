@@ -174,6 +174,7 @@
       links: [
         { title: "教育訓練公佈欄", href: "https://sites.google.com/slsc.org.tw/training/%E9%A6%96%E9%A0%81", tag: "網站" },
         { title: "線上課程借閱平台", href: "https://borrowhub.slsc.org.tw/", tag: "平台" },
+        { title: "線上課程借閱平台說明", href: "https://drive.google.com/file/d/1Z2dJoTfJi25V7mu5C_9b0iwXzqvQgcez/view?usp=sharing", tag: "說明文件" },
         { title: "衛福部長照積分查詢網", href: "https://ltcpap.mohw.gov.tw/molc/eg999/index", tag: "查詢" },
         { title: "歷年年度教育訓練相關資料（陸續建置中）", href: "https://drive.google.com/drive/folders/1_Oc2wTfu-BpL57bgfbb7YZYoB7EsM6xw?usp=sharing", tag: "資料夾" }
       ]
