@@ -162,7 +162,8 @@
           description: item.description || "點擊後會開啟外部資源。",
           href: item.href,
           external: true,
-          tag: item.tag || "連結"
+          tag: item.tag || "連結",
+          actions: item.actions
         })
       );
     });
@@ -236,7 +237,15 @@
         const current = siteData.pages[item.id];
         const row = document.createElement("tr");
         const resourceLinks = (current.links || [])
-          .map((link) => `<a class="table-card" href="${escapeAttr(link.href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(link.title)}</a>`)
+          .map((link) => {
+            if (link.actions?.length) {
+              const actions = link.actions
+                .map((action) => `<a class="table-card" href="${escapeAttr(action.href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(action.label)}</a>`)
+                .join("");
+              return `<div><strong>${escapeHtml(link.title)}</strong></div><div>${actions}</div>`;
+            }
+            return `<a class="table-card" href="${escapeAttr(link.href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(link.title)}</a>`;
+          })
           .join("");
         const notes = (current.notes || []).map((note) => `<div>${escapeHtml(note)}</div>`).join("") || "—";
         const faq = (current.faq || [])
@@ -256,7 +265,29 @@
     return panel;
   }
 
-  function createCard({ title, description, href, external, tag }) {
+  function createCard({ title, description, href, external, tag, actions }) {
+    if (actions?.length) {
+      const card = document.createElement("div");
+      card.className = "resource-card resource-card-multi";
+      card.innerHTML = `
+        <div class="resource-tag">${escapeHtml(tag || "連結")}</div>
+        <h3>${escapeHtml(title)}</h3>
+        <p>${escapeHtml(description || "")}</p>
+        <div class="resource-actions"></div>
+      `;
+      const actionsWrap = card.querySelector(".resource-actions");
+      actions.forEach((action, index) => {
+        const actionLink = document.createElement("a");
+        actionLink.className = `resource-action${index === 0 ? " resource-action-primary" : ""}`;
+        actionLink.href = action.href;
+        actionLink.target = "_blank";
+        actionLink.rel = "noopener noreferrer";
+        actionLink.textContent = action.label;
+        actionsWrap.appendChild(actionLink);
+      });
+      return card;
+    }
+
     const anchor = document.createElement("a");
     anchor.className = "resource-card";
     anchor.href = href;

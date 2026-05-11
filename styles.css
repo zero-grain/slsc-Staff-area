@@ -226,6 +226,38 @@ button, .button-link { font: inherit; }
 .resource-card h3 { margin: 0; font-size: 1.05rem; }
 .resource-card p { margin: 0; color: var(--text-muted); line-height: 1.7; }
 
+.resource-actions {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.resource-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--text);
+  font-weight: 700;
+  transition: 0.18s ease;
+}
+
+.resource-action:hover,
+.resource-action:focus-visible {
+  transform: translateY(-1px);
+  border-color: rgba(160, 71, 45, 0.36);
+}
+
+.resource-action-primary {
+  border-color: transparent;
+  background: linear-gradient(135deg, var(--primary), var(--primary-strong));
+  color: #fff;
+}
+
 .resource-meta {
   margin-top: auto;
   display: flex;
