@@ -15,6 +15,7 @@
     { id: "gp10", href: "gp10.html", label: "權益制度", note: "相關制度" },
     { id: "gp11", href: "gp11.html", label: "官網更新", note: "申請與教學" },
     { id: "gp12", href: "gp12.html", label: "文件共享", note: "共用資料夾" },
+    { id: "gp16", href: "gp16.html", label: "協會設計相關專區", note: "行銷與設計" },
     { id: "gp13", href: "gp13.html", label: "處行政專區", note: "備檔與彙整" },
     { id: "gp14", href: "gp14.html", label: "督導專區", note: "建置中" },
     { id: "gp15", href: "gp15.html", label: "資訊專區", note: "工具與支援" }
@@ -251,6 +252,15 @@
       intro: "資訊相關工具與支援入口會集中在這一頁。",
       links: [
         { title: "Awesun 遠端軟體網站", href: "https://awesun.aweray.com/en/olddown/windows", tag: "工具下載" }
+      ]
+    },
+    gp16: {
+      type: "links",
+      title: "協會設計相關專區",
+      subtitle: "整理協會設計與行銷相關資料。",
+      intro: "設計與行銷相關資源會集中在這一頁。",
+      links: [
+        { title: "行銷相關", href: "https://drive.google.com/drive/folders/0AFe5F940miG6Uk9PVA", tag: "資料夾" }
       ]
     }
   };
