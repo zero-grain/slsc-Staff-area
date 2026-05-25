@@ -131,7 +131,7 @@
       intro: "人資常用系統與制度文件。",
       links: [
         { title: "104 人資系統", href: "http://118.163.5.133:2080/ehrms/", tag: "系統" },
-        { title: "114 年度團體保險內容摘要說明", href: "https://drive.google.com/file/d/1zXDLB-dIVRNrJtyutyCCNjI-JEESLSlk/view", tag: "PDF / 雲端" },
+        { title: "115 年度團體保險內容摘要說明", href: "https://drive.google.com/file/d/1CD0uIZ_GGUJiXEISFW1Uk6Z1z0lBG9iY/view?usp=sharing", tag: "PDF / 雲端" },
         { title: "解憂信箱使用方法", href: "https://drive.google.com/file/d/135v1YjgdP_ZsyMXYJioUVHmdZKSlDv-5/view?usp=sharing", tag: "PDF" },
         { title: "113 年度長照機構專業責任保險內容說明", href: "https://drive.google.com/file/d/1xZuCPuXPOugSvBMT4s8G5VWmDZfI2TTD/view?usp=drive_link", tag: "說明文件" }
       ]
