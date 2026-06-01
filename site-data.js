@@ -180,7 +180,7 @@
           description: "可直接前往平台，或先查看使用手冊。",
           actions: [
             { label: "線上課程借閱平台", href: "https://borrowhub.slsc.org.tw/" },
-            { label: "使用手冊", href: "https://drive.google.com/file/d/1Z2dJoTfJi25V7mu5C_9b0iwXzqvQgcez/view?usp=sharing" }
+            { label: "使用手冊", href: "https://drive.google.com/file/d/1g7ssnY2xKToE0QUVzxzsu3l2vAszOCo2/view?usp=sharing" }
           ]
         },
         { title: "衛福部長照積分查詢網", href: "https://ltcpap.mohw.gov.tw/molc/eg999/index", tag: "查詢" },
