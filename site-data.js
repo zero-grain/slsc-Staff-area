@@ -194,7 +194,7 @@
       intro: "新人報到後常用的教學資源。",
       links: [
         { title: "新人教育訓練 classroom 簡易操作", href: "https://drive.google.com/file/d/16C26HCb1ExJmPMQqizc-0dDQG9dHWTaq/view?usp=sharing", tag: "教學" },
-        { title: "新人教育訓練成績查詢平台", href: "https://zero-grain.github.io/ntr/", tag: "查詢平台" },
+        { title: "新人教育訓練成績查詢平台", href: "https://ntr.slcare.org.tw/reports/training", tag: "查詢平台" },
         { title: "一等一 UOF 系統登入說明", href: "https://drive.google.com/file/d/1DJfo4t5-OpJiWFy2Sd47yZNQoyKerYop/view?usp=drive_link", tag: "教學" },
         { title: "一等一 UOF 請假、加班操作說明", href: "https://drive.google.com/file/d/1-rhZ7e8057xCQrPzf_HLd5Axye8zS0FH/view?usp=drive_link", tag: "教學" }
       ]
