@@ -251,7 +251,8 @@
       subtitle: "整理資訊工具、遠端支援與常用技術資源。",
       intro: "資訊相關工具與支援入口會集中在這一頁。",
       links: [
-        { title: "Awesun 遠端軟體網站", href: "https://awesun.aweray.com/en/olddown/windows", tag: "工具下載" }
+        { title: "Awesun 遠端軟體網站", href: "https://awesun.aweray.com/en/olddown/windows", tag: "工具下載" },
+        { title: "anydesk 遠端軟體網站", href: "https://anydesk.com/zh-tw", tag: "工具下載" }
       ]
     },
     gp16: {
