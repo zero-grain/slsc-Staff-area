@@ -2,28 +2,28 @@
 // 新增專區、修改側欄、更新連結時，優先調整這份檔案即可。
 (function () {
   const nav = [
-    { id: "index", href: "index.html", label: "首頁", note: "常用入口" },
-    { id: "staff_area", href: "staff_area.html", label: "總覽表", note: "全部資源彙整" },
-    { id: "gp01", href: "gp01.html", label: "職務代理表", note: "行管處職務" },
-    { id: "gp02", href: "gp02.html", label: "總務專區", note: "採購與修繕" },
-    { id: "gp04", href: "gp04.html", label: "人資專區", note: "制度與保險" },
-    { id: "gp05", href: "gp05.html", label: "職災給付流程", note: "申請表單" },
-    { id: "gp06", href: "gp06.html", label: "財務專區", note: "建置中" },
-    { id: "gp07", href: "gp07.html", label: "公文系統", note: "登入與教學" },
-    { id: "gp08", href: "gp08.html", label: "教育訓練", note: "課程與積分" },
-    { id: "gp09", href: "gp09.html", label: "新人訓練", note: "新人必看" },
-    { id: "gp10", href: "gp10.html", label: "權益制度", note: "相關制度" },
-    { id: "gp11", href: "gp11.html", label: "官網更新", note: "申請與教學" },
-    { id: "gp12", href: "gp12.html", label: "文件共享", note: "共用資料夾" },
-    { id: "gp16", href: "gp16.html", label: "協會設計相關專區", note: "行銷與設計" },
-    { id: "gp13", href: "gp13.html", label: "處行政專區", note: "備檔與彙整" },
-    { id: "gp14", href: "gp14.html", label: "督導專區", note: "建置中" },
-    { id: "gp15", href: "gp15.html", label: "資訊專區", note: "工具與支援" }
+    { id: "index", href: "index.html", label: "首頁", note: "常用入口", group: "工作台" },
+    { id: "staff_area", href: "staff_area.html", label: "總覽表", note: "全部資源彙整", group: "工作台" },
+    { id: "gp01", href: "gp01.html", label: "職務代理表", note: "行管處職務", group: "工作台" },
+    { id: "gp02", href: "gp02.html", label: "總務專區", note: "採購與修繕", group: "行管處專區" },
+    { id: "gp06", href: "gp06.html", label: "財務專區", note: "建置中", group: "行管處專區" },
+    { id: "gp04", href: "gp04.html", label: "人資專區", note: "制度與保險", group: "行管處專區" },
+    { id: "gp05", href: "gp05.html", label: "職災給付流程", note: "申請表單", group: "人事權益" },
+    { id: "gp10", href: "gp10.html", label: "權益制度", note: "相關制度", group: "人事權益" },
+    { id: "gp08", href: "gp08.html", label: "教育訓練", note: "課程與積分", group: "教育訓練" },
+    { id: "gp09", href: "gp09.html", label: "新人訓練", note: "新人必看", group: "教育訓練" },
+    { id: "gp12", href: "gp12.html", label: "文件共享", note: "共用資料夾", group: "文件資源" },
+    { id: "gp16", href: "gp16.html", label: "協會設計相關專區", note: "行銷與設計", group: "文件資源" },
+    { id: "gp07", href: "gp07.html", label: "公文系統", note: "登入與教學", group: "資訊專區" },
+    { id: "gp11", href: "gp11.html", label: "官網更新說明", note: "申請與教學", group: "資訊專區" },
+    { id: "gp15", href: "gp15.html", label: "資訊相關", note: "工具與支援", group: "資訊專區" },
+    { id: "gp13", href: "gp13.html", label: "處行政專區", note: "備檔與彙整", group: "服務處專區" },
+    { id: "gp14", href: "gp14.html", label: "督導專區", note: "建置中", group: "服務處專區" }
   ];
 
   const jobTableHtml = `
     <div class="data-table-wrap">
-      <table class="data-table">
+      <table class="data-table job-table">
         <caption>行管處職務、代理一覽表</caption>
         <tbody>
           <tr>
@@ -32,13 +32,13 @@
             <th>主責職務</th>
             <th>職務代理人</th>
           </tr>
-          <tr><td rowspan="11">人資室</td><td>葉副處長</td><td>人資室各項業務督責</td><td></td></tr>
-          <tr><td rowspan="3">陳先生</td><td>工作規則、法令諮詢、勞動檢查諮詢</td><td rowspan="3">高小姐</td></tr>
+          <tr><td rowspan="11">人資室</td><td>陳主任</td><td>人資室各項業務督責</td><td></td></tr>
+          <tr><td rowspan="3">陳主任</td><td>工作規則、法令諮詢、勞動檢查諮詢</td><td rowspan="3">曹小姐</td></tr>
           <tr><td>人事行政：團屋、專區、居家</td></tr>
           <tr><td>職業安全衛生</td></tr>
           <tr><td rowspan="2">曹小姐</td><td>一等一假勤、104 系統計薪作業</td><td rowspan="2">高小姐</td></tr>
           <tr><td>人事行政：非團屋專區居家單位</td></tr>
-          <tr><td rowspan="5">高小姐</td><td>人事行政：團屋、專區、居家</td><td rowspan="2">陳先生</td></tr>
+          <tr><td rowspan="5">張先生</td><td>人事行政：團屋、專區、居家</td><td rowspan="2">陳主任</td></tr>
           <tr><td>在職證明、離職證明</td></tr>
           <tr><td>育嬰留停作業</td><td rowspan="3">曹小姐</td></tr>
           <tr><td>職災保險申請</td></tr>
@@ -87,8 +87,7 @@
       actions: [
         { label: "回首頁", href: "index.html", primary: true },
         { label: "查看職務代理表", href: "gp01.html" }
-      ],
-      extraHtml: jobTableHtml
+      ]
     },
     gp01: {
       type: "html",
@@ -139,11 +138,13 @@
     gp05: {
       type: "links",
       title: "申請職災醫療給付流程",
-      subtitle: "職災醫療與工資補償相關表單。",
+      subtitle: "勞保、職災與團體保險相關申請文件。",
       intro: "申請前可先參考下方補充說明。",
       links: [
-        { title: "職業災害醫療給付門診住院醫療費用補償", href: "https://slsc.org.tw/wp-content/uploads/2023/05/%E8%81%B7%E6%A5%AD%E7%81%BD%E5%AE%B3%E9%86%AB%E7%99%82%E7%B5%A6%E4%BB%98%E9%96%80%E8%A8%BA%E4%BD%8F%E9%99%A2%E9%86%AB%E7%99%82%E8%B2%BB%E7%94%A8%E8%A3%9C%E5%84%9F.xlsx", tag: "Excel" },
-        { title: "普統-職災傷病給付無法工作期間工資補償", href: "https://slsc.org.tw/wp-content/uploads/2023/05/%E6%99%AE%E9%80%9A-%E8%81%B7%E7%81%BD%E5%82%B7%E7%97%85%E7%B5%A6%E4%BB%98%E7%84%A1%E6%B3%95%E5%B7%A5%E4%BD%9C%E6%9C%9F%E9%96%93%E5%B7%A5%E8%B3%87%E8%A3%9C%E5%84%9F.xlsx", tag: "Excel" }
+        { title: "申請傷病給付(無法工作期間薪資補償)流程", href: "https://zero-grain.github.io/ilbag/", tag: "流程指引" },
+        { title: "勞工保險申請書", href: "https://drive.google.com/file/d/1MpXV--oUHDM7LIwjj3OuJ-yJiRQuueuG/view?usp=sharing", tag: "申請表單" },
+        { title: "勞工職業災害保險被保險人上下班公出途中發生事故而致傷害陳述書", href: "https://drive.google.com/file/d/1tYzBS9-oB_-x5ayJ1QlxJW0MJhm8_sx9/view?usp=drive_link", tag: "申請表單" },
+        { title: "團體保險理賠保險金申請書", href: "https://drive.google.com/file/d/1X6mzj3zI3HvdTZEb-6af-Rb0PVsHH6QF/view?usp=drive_link", tag: "申請表單" }
       ],
       notes: [
         "一等一雲端辦公室內的請假與人資系統資料，常會與職災申請流程交互使用。",
@@ -205,12 +206,12 @@
       subtitle: "評鑑與行管相關制度文件。",
       intro: "制度與文件管理資源。",
       links: [
-        { title: "評鑑行管相關資料於文件管理", href: "https://www.slsc.org.tw/wp-content/uploads/2023/07/%E8%A9%95%E9%91%91%E8%A1%8C%E7%AE%A1%E7%9B%B8%E9%97%9C%E8%B3%87%E6%96%9920230713.pdf", tag: "PDF" }
+        { title: "評鑑行管相關資料於文件管理", href: "https://drive.google.com/drive/folders/1lKiS7bxAIgPxrLRK1myrtfVhm16MlpWs", tag: "雲端資料夾" }
       ]
     },
     gp11: {
       type: "links",
-      title: "官網更新相關申請",
+      title: "官網更新說明",
       subtitle: "官網更新申請入口與教學影片。",
       intro: "如需更新官網內容，可先看教學再送件。",
       links: [
@@ -247,7 +248,7 @@
     },
     gp15: {
       type: "links",
-      title: "資訊專區",
+      title: "資訊相關",
       subtitle: "整理資訊工具、遠端支援與常用技術資源。",
       intro: "資訊相關工具與支援入口會集中在這一頁。",
       links: [
