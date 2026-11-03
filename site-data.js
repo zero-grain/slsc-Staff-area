@@ -154,9 +154,11 @@
     gp06: {
       type: "links",
       title: "財務相關專區",
-      subtitle: "目前尚未放入具體連結，可直接在資料檔補上。",
-      intro: "這頁已先保留版型，之後加上資料即可自動顯示。",
-      links: []
+      subtitle: "財務相關辦法與常用資源。",
+      intro: "財務相關制度與辦法整理如下。",
+      links: [
+        { title: "財務相關辦法", href: "https://drive.google.com/drive/folders/14wBmsMlFw_n_bECbJlqc78LXPQ63UEYY?usp=drive_link", tag: "雲端資料夾" }
+      ]
     },
     gp07: {
       type: "links",
@@ -253,7 +255,8 @@
       intro: "資訊相關工具與支援入口會集中在這一頁。",
       links: [
         { title: "Awesun 遠端軟體網站", href: "https://awesun.aweray.com/en/olddown/windows", tag: "工具下載" },
-        { title: "anydesk 遠端軟體網站", href: "https://anydesk.com/zh-tw", tag: "工具下載" }
+        { title: "anydesk 遠端軟體網站", href: "https://anydesk.com/zh-tw", tag: "工具下載" },
+        { title: "OBS電腦錄影工具", href: "https://obsproject.com/", tag: "工具下載" }
       ]
     },
     gp16: {
